@@ -9,9 +9,9 @@ export default function App() {
             <div className="flex-shrink-0">
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">TC</span>
+                  <span className="text-white font-bold text-xl">AI</span>
                 </div>
-                <span className="ml-2 text-xl font-bold text-gray-800">TechCorp</span>
+                <span className="ml-2 text-xl font-bold text-gray-800">AI4S</span>
               </div>
             </div>
             
@@ -431,12 +431,12 @@ export default function App() {
             <div className="col-span-2">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">TC</span>
+                  <span className="text-white font-bold text-xl">AI</span>
                 </div>
-                <span className="ml-2 text-xl font-bold">TechCorp</span>
+                <span className="ml-2 text-xl font-bold">AI4S</span>
               </div>
               <p className="text-gray-400 mb-4">
-                Transforming businesses through innovative technology solutions and comprehensive SAP training programs.
+                Transforming businesses through innovative AI and technology solutions for the future.
               </p>
             </div>
             
@@ -456,13 +456,13 @@ export default function App() {
                 <li>1234 Tech Street</li>
                 <li>Innovation City, IC 12345</li>
                 <li>+1 (555) 123-4567</li>
-                <li>info@techcorp.com</li>
+                <li>info@ai4s.com</li>
               </ul>
             </div>
           </div>
           
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 TechCorp. All rights reserved.</p>
+            <p>&copy; 2024 AI4S. All rights reserved.</p>
           </div>
         </div>
       </footer>
