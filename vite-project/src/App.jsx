@@ -11,7 +11,6 @@ export default function App() {
                 <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-xl">AI4S</span>
                 </div>
-                <span className="ml-2 text-xl font-bold text-gray-800">AI4S</span>
               </div>
             </div>
             
@@ -433,7 +432,6 @@ export default function App() {
                 <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-xl">AI4S</span>
                 </div>
-                <span className="ml-2 text-xl font-bold">AI4S</span>
               </div>
               <p className="text-gray-400 mb-4">
                 Transforming businesses through innovative AI and technology solutions for the future.
