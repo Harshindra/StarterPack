@@ -9,7 +9,7 @@ export default function App() {
             <div className="flex-shrink-0">
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">AI</span>
+                  <span className="text-white font-bold text-xl">AI4S</span>
                 </div>
                 <span className="ml-2 text-xl font-bold text-gray-800">AI4S</span>
               </div>
@@ -431,7 +431,7 @@ export default function App() {
             <div className="col-span-2">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">AI</span>
+                  <span className="text-white font-bold text-xl">AI4S</span>
                 </div>
                 <span className="ml-2 text-xl font-bold">AI4S</span>
               </div>
