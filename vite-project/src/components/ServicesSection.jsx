@@ -14,7 +14,7 @@ export default function ServicesSection() {
       ),
       iconBgColor: "bg-gradient-to-r from-green-500 to-green-600",
       checkmarkColor: "green",
-      isReversed: false
+      isReversed: false // Image left, content right
     },
     {
       title: "Cloud Solutions",
@@ -28,7 +28,7 @@ export default function ServicesSection() {
       ),
       iconBgColor: "bg-gradient-to-r from-purple-500 to-purple-600",
       checkmarkColor: "blue",
-      isReversed: true
+      isReversed: true // Image right, content left
     },
     {
       title: "Professional AI Training",
@@ -43,7 +43,7 @@ export default function ServicesSection() {
       ),
       iconBgColor: "bg-gradient-to-r from-orange-500 to-orange-600",
       checkmarkColor: "orange",
-      isReversed: false
+      isReversed: false // Image left, content right
     }
   ]
 
