@@ -77,9 +77,9 @@ export default function App() {
               </div>
             </div>
             <div className="relative">
-              <div className="w-full h-96 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl shadow-2xl flex items-center justify-center transform transition-all duration-500 hover:scale-105 hover:rotate-1 hover:shadow-blue-500/50">
+              <div className="w-full h-96 bg-gradient-to-br from-gray-800 to-gray-700 border border-gray-600 rounded-2xl shadow-2xl flex items-center justify-center transform transition-all duration-500 hover:scale-105 hover:rotate-1 hover:shadow-blue-500/50">
                 <div className="text-white text-center">
-                  <div className="w-32 h-32 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4 animate-bounce">
+                  <div className="w-32 h-32 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 animate-bounce">
                     <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                     </svg>
@@ -103,9 +103,9 @@ export default function App() {
           {/* Service Card 1 */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20 group">
             <div className="order-2 lg:order-1 transform transition-all duration-500 group-hover:scale-105">
-              <div className="w-full h-80 bg-gradient-to-br from-green-400 to-emerald-600 rounded-2xl shadow-lg flex items-center justify-center hover:shadow-green-500/50 transition-all duration-300">
+              <div className="w-full h-80 bg-gradient-to-br from-gray-800 to-gray-700 border border-green-600/30 rounded-2xl shadow-lg flex items-center justify-center hover:shadow-green-500/50 transition-all duration-300">
                 <div className="text-white text-center">
-                  <div className="w-24 h-24 bg-gradient-to-r from-green-600 to-green-800 rounded-full flex items-center justify-center mx-auto mb-4 animate-pulse">
+                  <div className="w-24 h-24 bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4 animate-pulse">
                     <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
                     </svg>
@@ -185,9 +185,9 @@ export default function App() {
               </ul>
             </div>
             <div className="transform transition-all duration-500 group-hover:scale-105">
-              <div className="w-full h-80 bg-gradient-to-br from-purple-400 to-pink-600 rounded-2xl shadow-lg flex items-center justify-center hover:shadow-purple-500/50 transition-all duration-300">
+              <div className="w-full h-80 bg-gradient-to-br from-gray-800 to-gray-700 border border-purple-600/30 rounded-2xl shadow-lg flex items-center justify-center hover:shadow-purple-500/50 transition-all duration-300">
                 <div className="text-white text-center">
-                  <div className="w-24 h-24 bg-gradient-to-r from-purple-600 to-purple-800 rounded-full flex items-center justify-center mx-auto mb-4 animate-pulse">
+                  <div className="w-24 h-24 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 animate-pulse">
                     <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M3 17a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1v-2zM3.277 12.553a.5.5 0 01.67-.223L10 14.69l6.053-2.36a.5.5 0 01.67.223.5.5 0 01-.223.67L10.5 15.31a.5.5 0 01-.353 0L4.147 13.223a.5.5 0 01-.223-.67z"/>
                     </svg>
@@ -201,9 +201,9 @@ export default function App() {
           {/* Service Card 3 */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center group">
             <div className="order-2 lg:order-1 transform transition-all duration-500 group-hover:scale-105">
-              <div className="w-full h-80 bg-gradient-to-br from-orange-400 to-red-600 rounded-2xl shadow-lg flex items-center justify-center hover:shadow-orange-500/50 transition-all duration-300">
+              <div className="w-full h-80 bg-gradient-to-br from-gray-800 to-gray-700 border border-orange-600/30 rounded-2xl shadow-lg flex items-center justify-center hover:shadow-orange-500/50 transition-all duration-300">
                 <div className="text-white text-center">
-                  <div className="w-24 h-24 bg-gradient-to-r from-orange-600 to-orange-800 rounded-full flex items-center justify-center mx-auto mb-4 animate-pulse">
+                  <div className="w-24 h-24 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4 animate-pulse">
                     <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/>
                       <path fillRule="evenodd" d="M4 5a2 2 0 012-2v1a1 1 0 102 0V3a2 2 0 012 0v1a1 1 0 102 0V3a2 2 0 012 2v6.447l-.105.447-.895 3.684A2 2 0 0113.382 18H6.618a2 2 0 01-1.93-1.516L3.79 12.947 3.684 12.5A1 1 0 014 12V5z" clipRule="evenodd"/>
