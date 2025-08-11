@@ -1,6 +1,6 @@
 import ServiceCard from './ServiceCard'
 
-export default function ServicesSection() {
+export default function ServicesSection({ onViewAllServices }) {
   const services = [
     {
       title: "Custom Web Development",
@@ -58,6 +58,18 @@ export default function ServicesSection() {
         {services.map((service, index) => (
           <ServiceCard key={index} {...service} />
         ))}
+
+        <div className="text-center mt-16">
+          <button
+            onClick={onViewAllServices}
+            className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-green-500 to-green-600 text-white font-semibold rounded-lg hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+          >
+            View All Services
+            <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
       </div>
     </section>
   )
