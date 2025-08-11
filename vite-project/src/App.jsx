@@ -20,12 +20,22 @@ export default function App() {
   }
 
   if (currentPage === 'services') {
-    return <ServicesPage onBackToHome={handleBackToHome} />
+    return (
+      <ServicesPage
+        onBackToHome={handleBackToHome}
+        onNavigateToServices={handleViewAllServices}
+        onNavigateToHome={handleBackToHome}
+      />
+    )
   }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800">
-      <Navbar />
+      <Navbar
+        onNavigateToServices={handleViewAllServices}
+        onNavigateToHome={handleBackToHome}
+        currentPage="home"
+      />
       <HeroSection />
       <ServicesSection onViewAllServices={handleViewAllServices} />
       <AboutSection />
