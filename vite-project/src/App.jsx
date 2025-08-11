@@ -7,6 +7,7 @@ import PartnersSection from './components/PartnersSection'
 import ClientsSection from './components/ClientsSection'
 import Footer from './components/Footer'
 import ServicesPage from './components/ServicesPage'
+import AboutPage from './components/AboutPage'
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home')
@@ -19,12 +20,27 @@ export default function App() {
     setCurrentPage('home')
   }
 
+  const handleNavigateToAbout = () => {
+    setCurrentPage('about')
+  }
+
   if (currentPage === 'services') {
     return (
       <ServicesPage
         onBackToHome={handleBackToHome}
         onNavigateToServices={handleViewAllServices}
         onNavigateToHome={handleBackToHome}
+        onNavigateToAbout={handleNavigateToAbout}
+      />
+    )
+  }
+
+  if (currentPage === 'about') {
+    return (
+      <AboutPage
+        onNavigateToServices={handleViewAllServices}
+        onNavigateToHome={handleBackToHome}
+        onNavigateToAbout={handleNavigateToAbout}
       />
     )
   }
@@ -34,6 +50,7 @@ export default function App() {
       <Navbar
         onNavigateToServices={handleViewAllServices}
         onNavigateToHome={handleBackToHome}
+        onNavigateToAbout={handleNavigateToAbout}
         currentPage="home"
       />
       <HeroSection />
