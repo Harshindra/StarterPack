@@ -130,15 +130,6 @@ export default function ServicesPage({ onBackToHome, onNavigateToServices, onNav
       <div className="py-20 pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <button 
-              onClick={onBackToHome}
-              className="inline-flex items-center mb-8 text-green-400 hover:text-green-300 transition-colors duration-300"
-            >
-              <svg className="mr-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-              </svg>
-              Back to Home
-            </button>
             <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">All Our Services</h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Comprehensive technology solutions designed to transform your business and drive innovation
