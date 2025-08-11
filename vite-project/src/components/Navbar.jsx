@@ -1,4 +1,4 @@
-export default function Navbar({ onNavigateToServices, onNavigateToHome, currentPage }) {
+export default function Navbar({ onNavigateToServices, onNavigateToHome, onNavigateToAbout, currentPage }) {
   return (
     <nav className="bg-black bg-opacity-90 backdrop-blur-md shadow-xl fixed top-0 w-full z-50 border-b border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -33,9 +33,12 @@ export default function Navbar({ onNavigateToServices, onNavigateToHome, current
               <a href="#sap-training" className="text-gray-300 hover:text-white hover:bg-gray-800 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 transform hover:scale-105">
                 SAP Training
               </a>
-              <a href="#about" className="text-gray-300 hover:text-white hover:bg-gray-800 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 transform hover:scale-105">
+              <button
+                onClick={onNavigateToAbout}
+                className={`${currentPage === 'about' ? 'text-white bg-gray-800' : 'text-gray-300'} hover:text-white hover:bg-gray-800 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 transform hover:scale-105`}
+              >
                 About
-              </a>
+              </button>
               <a href="#faq" className="text-gray-300 hover:text-white hover:bg-gray-800 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 transform hover:scale-105">
                 FAQ
               </a>
