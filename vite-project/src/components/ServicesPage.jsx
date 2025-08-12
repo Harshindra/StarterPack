@@ -128,11 +128,11 @@ export default function ServicesPage({ onBackToHome, onNavigateToServices, onNav
         onNavigateToAbout={onNavigateToAbout}
         currentPage="services" 
       />
-      <div className="py-20 pt-32">
+      <div className="py-24 pt-36">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">All Our Services</h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <div className="text-center mb-20">
+            <h1 className="text-5xl lg:text-7xl font-black text-gray-900 mb-8 tracking-tight leading-tight">All Our Services</h1>
+            <p className="text-xl lg:text-2xl text-gray-600 max-w-4xl mx-auto font-light leading-relaxed">
               Comprehensive SAP & AI technology solutions designed to transform your business and drive innovation
             </p>
           </div>
@@ -141,9 +141,9 @@ export default function ServicesPage({ onBackToHome, onNavigateToServices, onNav
             <ServiceCard key={index} {...service} />
           ))}
           
-          <div className="text-center mt-16">
-            <p className="text-gray-600 mb-6">Ready to get started with our services?</p>
-            <button className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+          <div className="text-center mt-20">
+            <p className="text-lg text-gray-600 mb-8 font-light">Ready to get started with our services?</p>
+            <button className="inline-flex items-center px-10 py-5 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold text-lg rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-blue-500/30 ring-2 ring-blue-200/50 tracking-wide">
               Contact Us Today
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
