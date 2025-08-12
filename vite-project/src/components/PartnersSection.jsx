@@ -1,11 +1,11 @@
 export default function PartnersSection() {
   const partners = [
-    { name: "Microsoft", bgColor: "bg-gradient-to-r from-blue-600 to-orange-500", hoverColor: "hover:from-blue-700 hover:to-orange-600" },
-    { name: "AWS", bgColor: "bg-gradient-to-r from-orange-500 to-blue-600", hoverColor: "hover:from-orange-600 hover:to-blue-700" },
-    { name: "SAP", bgColor: "bg-gradient-to-r from-blue-600 to-orange-500", hoverColor: "hover:from-blue-700 hover:to-orange-600" },
-    { name: "Oracle", bgColor: "bg-gradient-to-r from-orange-500 to-blue-600", hoverColor: "hover:from-orange-600 hover:to-blue-700" },
-    { name: "Google", bgColor: "bg-gradient-to-r from-blue-600 to-orange-500", hoverColor: "hover:from-blue-700 hover:to-orange-600" },
-    { name: "Salesforce", bgColor: "bg-gradient-to-r from-orange-500 to-blue-600", hoverColor: "hover:from-orange-600 hover:to-blue-700" }
+    { name: "Microsoft", bgColor: "bg-gradient-to-r from-blue-600 to-purple-600", hoverColor: "hover:from-blue-700 hover:to-purple-700" },
+    { name: "AWS", bgColor: "bg-gradient-to-r from-purple-600 to-blue-600", hoverColor: "hover:from-purple-700 hover:to-blue-700" },
+    { name: "SAP", bgColor: "bg-gradient-to-r from-orange-500 to-orange-600", hoverColor: "hover:from-orange-600 hover:to-orange-700" },
+    { name: "Oracle", bgColor: "bg-gradient-to-r from-blue-600 to-purple-600", hoverColor: "hover:from-blue-700 hover:to-purple-700" },
+    { name: "Google", bgColor: "bg-gradient-to-r from-purple-600 to-blue-600", hoverColor: "hover:from-purple-700 hover:to-blue-700" },
+    { name: "Salesforce", bgColor: "bg-gradient-to-r from-orange-500 to-orange-600", hoverColor: "hover:from-orange-600 hover:to-orange-700" }
   ]
 
   return (
