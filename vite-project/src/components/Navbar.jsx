@@ -1,16 +1,16 @@
 export default function Navbar({ onNavigateToServices, onNavigateToHome, onNavigateToAbout, currentPage }) {
   return (
-    <nav className="bg-white bg-opacity-95 backdrop-blur-md shadow-xl fixed top-0 w-full z-50 border-b border-blue-200">
+    <nav className="bg-white/95 backdrop-blur-lg shadow-2xl fixed top-0 w-full z-50 border-b border-blue-200/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           {/* Company Logo - Interactive */}
           <div className="flex-shrink-0">
             <div className="flex items-center">
               <div
                 onClick={onNavigateToHome}
-                className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center transform transition-all duration-300 hover:scale-110 hover:rotate-3 hover:shadow-lg hover:shadow-blue-500/50 cursor-pointer group"
+                className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl flex items-center justify-center transform transition-all duration-500 hover:scale-110 hover:rotate-3 hover:shadow-2xl hover:shadow-blue-500/30 cursor-pointer group ring-2 ring-white/20"
               >
-                <span className="text-white font-bold text-xl group-hover:animate-pulse">AI4S</span>
+                <span className="text-white font-bold text-xl tracking-tight group-hover:animate-pulse">AI4S</span>
               </div>
             </div>
           </div>
@@ -20,29 +20,29 @@ export default function Navbar({ onNavigateToServices, onNavigateToHome, onNavig
             <div className="ml-10 flex items-baseline space-x-4">
               <button
                 onClick={onNavigateToHome}
-                className={`${currentPage === 'home' ? 'text-white bg-gradient-to-r from-blue-600 to-purple-600' : 'text-gray-700'} hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 transform hover:scale-105`}
+                className={`${currentPage === 'home' ? 'text-white bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg' : 'text-gray-700'} hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 px-4 py-2.5 rounded-lg text-sm font-semibold tracking-wide transition-all duration-300 transform hover:scale-105 hover:shadow-lg`}
               >
                 Home
               </button>
               <button
                 onClick={onNavigateToServices}
-                className={`${currentPage === 'services' ? 'text-white bg-gradient-to-r from-blue-600 to-purple-600' : 'text-gray-700'} hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 transform hover:scale-105`}
+                className={`${currentPage === 'services' ? 'text-white bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg' : 'text-gray-700'} hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 px-4 py-2.5 rounded-lg text-sm font-semibold tracking-wide transition-all duration-300 transform hover:scale-105 hover:shadow-lg`}
               >
                 Services
               </button>
-              <a href="#sap-training" className="text-gray-700 hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 transform hover:scale-105">
+              <a href="#sap-training" className="text-gray-700 hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 px-4 py-2.5 rounded-lg text-sm font-semibold tracking-wide transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
                 SAP Training
               </a>
               <button
                 onClick={onNavigateToAbout}
-                className={`${currentPage === 'about' ? 'text-white bg-gradient-to-r from-blue-600 to-purple-600' : 'text-gray-700'} hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 transform hover:scale-105`}
+                className={`${currentPage === 'about' ? 'text-white bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg' : 'text-gray-700'} hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 px-4 py-2.5 rounded-lg text-sm font-semibold tracking-wide transition-all duration-300 transform hover:scale-105 hover:shadow-lg`}
               >
                 About
               </button>
-              <a href="#faq" className="text-gray-700 hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 transform hover:scale-105">
+              <a href="#faq" className="text-gray-700 hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 px-4 py-2.5 rounded-lg text-sm font-semibold tracking-wide transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
                 FAQ
               </a>
-              <a href="#contact" className="bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 px-4 py-2 rounded-md text-sm font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+              <a href="#contact" className="bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 px-6 py-2.5 rounded-lg text-sm font-semibold tracking-wide transition-all duration-300 transform hover:scale-105 hover:shadow-xl shadow-lg ring-2 ring-orange-200/50">
                 Contact
               </a>
             </div>
