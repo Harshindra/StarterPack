@@ -5,9 +5,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="col-span-2">
             <div className="flex items-center mb-4">
-              <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl flex items-center justify-center transform transition-all duration-500 hover:scale-110 hover:rotate-3 shadow-xl ring-2 ring-white/30">
-                <span className="text-white font-bold text-xl tracking-tight">AI4S</span>
-              </div>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fffe704f5409f4984866d8f787feaf679%2Fcc82fb24863a4b328c93e2088148343d?format=webp&width=800"
+                alt="AI4S Logo"
+                className="h-12 w-auto transform transition-all duration-500 hover:scale-110 hover:drop-shadow-xl"
+              />
             </div>
             <p className="text-gray-600 mb-6 font-light text-lg leading-relaxed">
               Transforming businesses through innovative SAP & AI technology solutions for the future.
