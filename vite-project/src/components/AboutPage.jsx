@@ -24,7 +24,7 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
               </div>
               <div className="order-1 lg:order-2">
                 <div className="relative">
-                  <div className="w-full h-96 bg-gradient-to-br from-blue-600 to-orange-500 rounded-2xl shadow-2xl overflow-hidden">
+                  <div className="w-full h-96 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl shadow-2xl overflow-hidden">
                     <div className="absolute inset-0 bg-black bg-opacity-20"></div>
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="text-center">
@@ -35,7 +35,7 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
                           </svg>
                         </div>
                         <h3 className="text-2xl font-bold text-white mb-2">Innovation & Excellence</h3>
-                        <p className="text-orange-200">Transforming businesses through technology</p>
+                        <p className="text-purple-200">Transforming businesses through technology</p>
                       </div>
                     </div>
                   </div>
@@ -51,7 +51,7 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <div className="relative">
-                  <div className="w-full h-96 bg-gradient-to-br from-orange-500 to-blue-600 rounded-2xl shadow-2xl overflow-hidden">
+                  <div className="w-full h-96 bg-gradient-to-br from-purple-600 to-blue-600 rounded-2xl shadow-2xl overflow-hidden">
                     <div className="absolute inset-0 bg-black bg-opacity-20"></div>
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="text-center">
@@ -61,7 +61,7 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
                           </svg>
                         </div>
                         <h3 className="text-2xl font-bold text-white mb-2">Our Mission</h3>
-                        <p className="text-blue-200">Delivering excellence in every solution</p>
+                        <p className="text-purple-200">Delivering excellence in every solution</p>
                       </div>
                     </div>
                   </div>
@@ -89,7 +89,7 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
               </div>
               <div className="order-1 lg:order-2">
                 <div className="relative">
-                  <div className="w-full h-96 bg-gradient-to-br from-blue-600 to-orange-500 rounded-2xl shadow-2xl overflow-hidden">
+                  <div className="w-full h-96 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl shadow-2xl overflow-hidden">
                     <div className="absolute inset-0 bg-black bg-opacity-20"></div>
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="text-center">
@@ -116,7 +116,7 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
             <p className="text-xl text-gray-600 mb-8">
               Let's work together to achieve your goals through innovative technology solutions.
             </p>
-            <button className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-orange-500 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-orange-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+            <button className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
               Get Started Today
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
