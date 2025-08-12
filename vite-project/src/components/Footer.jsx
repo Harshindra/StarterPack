@@ -8,7 +8,7 @@ export default function Footer() {
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fffe704f5409f4984866d8f787feaf679%2Fcc82fb24863a4b328c93e2088148343d?format=webp&width=800"
                 alt="AI4S Logo"
-                className="h-12 w-auto transform transition-all duration-500 hover:scale-110 hover:drop-shadow-xl"
+                className="h-12 w-auto transform transition-all duration-500 hover:scale-110 hover:drop-shadow-xl mix-blend-multiply opacity-85 hover:opacity-100 filter hover:brightness-110"
               />
             </div>
             <p className="text-gray-600 mb-6 font-light text-lg leading-relaxed">
