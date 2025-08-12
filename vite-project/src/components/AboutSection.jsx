@@ -72,14 +72,14 @@ export default function AboutSection() {
   ]
 
   return (
-    <section id="about" className="py-20 bg-gradient-to-r from-white via-orange-50 to-blue-50">
+    <section id="about" className="py-24 bg-gradient-to-r from-white via-orange-50 to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Why Choose Us</h2>
-          <p className="text-xl text-gray-600">Excellence in every aspect of our SAP & AI services</p>
+        <div className="text-center mb-20">
+          <h2 className="text-4xl lg:text-6xl font-black text-gray-900 mb-6 tracking-tight">Why Choose Us</h2>
+          <p className="text-xl lg:text-2xl text-gray-600 font-light max-w-3xl mx-auto leading-relaxed">Excellence in every aspect of our SAP & AI services</p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {features.map((feature, index) => (
             <FeatureCard key={index} {...feature} />
           ))}
