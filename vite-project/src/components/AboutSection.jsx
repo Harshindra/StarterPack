@@ -10,7 +10,7 @@ export default function AboutSection() {
           <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
         </svg>
       ),
-      bgColor: "bg-gradient-to-r from-blue-600 to-orange-500",
+      bgColor: "bg-gradient-to-r from-blue-600 to-purple-600",
       hoverBorderColor: "blue"
     },
     {
@@ -21,7 +21,7 @@ export default function AboutSection() {
           <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
         </svg>
       ),
-      bgColor: "bg-gradient-to-r from-orange-500 to-blue-600",
+      bgColor: "bg-gradient-to-r from-purple-600 to-blue-600",
       hoverBorderColor: "green"
     },
     {
@@ -32,7 +32,7 @@ export default function AboutSection() {
           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd"/>
         </svg>
       ),
-      bgColor: "bg-gradient-to-r from-blue-600 to-orange-500",
+      bgColor: "bg-gradient-to-r from-orange-500 to-orange-600",
       hoverBorderColor: "orange"
     },
     {
@@ -43,7 +43,7 @@ export default function AboutSection() {
           <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
         </svg>
       ),
-      bgColor: "bg-gradient-to-r from-orange-500 to-blue-600",
+      bgColor: "bg-gradient-to-r from-blue-600 to-purple-600",
       hoverBorderColor: "purple"
     },
     {
@@ -55,7 +55,7 @@ export default function AboutSection() {
           <path d="M10.5 2a2.5 2.5 0 00-2.5 2.5v11a1.5 1.5 0 003 0v-11A2.5 2.5 0 0010.5 2z"/>
         </svg>
       ),
-      bgColor: "bg-gradient-to-r from-blue-600 to-orange-500",
+      bgColor: "bg-gradient-to-r from-purple-600 to-blue-600",
       hoverBorderColor: "cyan"
     },
     {
@@ -66,7 +66,7 @@ export default function AboutSection() {
           <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd"/>
         </svg>
       ),
-      bgColor: "bg-gradient-to-r from-orange-500 to-blue-600",
+      bgColor: "bg-gradient-to-r from-orange-500 to-orange-600",
       hoverBorderColor: "pink"
     }
   ]
