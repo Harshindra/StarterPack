@@ -9,20 +9,20 @@ export default function PartnersSection() {
   ]
 
   return (
-    <section id="partners" className="py-20 bg-gradient-to-r from-orange-50 via-white to-blue-50">
+    <section id="partners" className="py-24 bg-gradient-to-r from-orange-50 via-white to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Associate Partners</h2>
-          <p className="text-xl text-gray-600">Trusted by SAP & AI technology leaders worldwide</p>
+        <div className="text-center mb-20">
+          <h2 className="text-4xl lg:text-6xl font-black text-gray-900 mb-6 tracking-tight">Associate Partners</h2>
+          <p className="text-xl lg:text-2xl text-gray-600 font-light max-w-3xl mx-auto leading-relaxed">Trusted by SAP & AI technology leaders worldwide</p>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10">
           {partners.map((partner, index) => (
             <div 
               key={index}
-              className={`${partner.bgColor} ${partner.hoverColor} rounded-lg p-6 flex items-center justify-center transition-all duration-300 transform hover:scale-105 cursor-pointer`}
+              className={`${partner.bgColor} ${partner.hoverColor} rounded-2xl p-8 flex items-center justify-center transition-all duration-500 transform hover:scale-105 cursor-pointer shadow-xl hover:shadow-2xl ring-2 ring-white/30`}
             >
-              <span className="text-white font-bold text-lg">{partner.name}</span>
+              <span className="text-white font-black text-xl tracking-tight">{partner.name}</span>
             </div>
           ))}
         </div>
