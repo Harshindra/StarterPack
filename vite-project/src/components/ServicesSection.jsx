@@ -12,7 +12,7 @@ export default function ServicesSection({ onViewAllServices }) {
           <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
         </svg>
       ),
-      iconBgColor: "bg-gradient-to-r from-blue-600 to-orange-500",
+      iconBgColor: "bg-gradient-to-r from-blue-600 to-purple-600",
       checkmarkColor: "green",
       isReversed: false // Image left, content right
     },
@@ -26,7 +26,7 @@ export default function ServicesSection({ onViewAllServices }) {
           <path d="M3 17a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1v-2zM3.277 12.553a.5.5 0 01.67-.223L10 14.69l6.053-2.36a.5.5 0 01.67.223.5.5 0 01-.223.67L10.5 15.31a.5.5 0 01-.353 0L4.147 13.223a.5.5 0 01-.223-.67z"/>
         </svg>
       ),
-      iconBgColor: "bg-gradient-to-r from-orange-500 to-blue-600",
+      iconBgColor: "bg-gradient-to-r from-purple-600 to-blue-600",
       checkmarkColor: "blue",
       isReversed: true // Image right, content left
     },
@@ -41,7 +41,7 @@ export default function ServicesSection({ onViewAllServices }) {
           <path fillRule="evenodd" d="M4 5a2 2 0 012-2v1a1 1 0 102 0V3a2 2 0 012 0v1a1 1 0 102 0V3a2 2 0 012 2v6.447l-.105.447-.895 3.684A2 2 0 0113.382 18H6.618a2 2 0 01-1.93-1.516L3.79 12.947 3.684 12.5A1 1 0 014 12V5z" clipRule="evenodd"/>
         </svg>
       ),
-      iconBgColor: "bg-gradient-to-r from-blue-600 to-orange-500",
+      iconBgColor: "bg-gradient-to-r from-orange-500 to-orange-600",
       checkmarkColor: "orange",
       isReversed: false // Image left, content right
     }
@@ -62,7 +62,7 @@ export default function ServicesSection({ onViewAllServices }) {
         <div className="text-center mt-16">
           <button
             onClick={onViewAllServices}
-            className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-orange-500 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-orange-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+            className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
           >
             View All Services
             <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
