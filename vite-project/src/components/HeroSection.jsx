@@ -25,17 +25,12 @@ export default function HeroSection() {
               </button>
             </div>
           </div>
-          <div className="relative">
-            <div className="w-full h-96 bg-gradient-to-br from-white to-blue-50 border border-blue-200/60 rounded-3xl shadow-2xl flex items-center justify-center transform transition-all duration-700 hover:scale-105 hover:rotate-1 hover:shadow-blue-500/20 ring-1 ring-blue-100">
-              <div className="text-gray-800 text-center">
-                <div className="w-36 h-36 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6 animate-pulse shadow-2xl ring-4 ring-blue-200/40">
-                  <svg className="w-20 h-20 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                  </svg>
-                </div>
-                <h3 className="text-3xl font-bold tracking-tight">AI Driven Innovation</h3>
-              </div>
-            </div>
+          <div className="relative flex items-center justify-center">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Fffe704f5409f4984866d8f787feaf679%2Fcc82fb24863a4b328c93e2088148343d?format=webp&width=800"
+              alt="AI4S Logo"
+              className="w-full max-w-lg h-auto transform transition-all duration-700 hover:scale-105 drop-shadow-2xl"
+            />
           </div>
         </div>
       </div>
