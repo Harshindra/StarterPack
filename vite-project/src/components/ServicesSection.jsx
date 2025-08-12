@@ -48,21 +48,21 @@ export default function ServicesSection({ onViewAllServices }) {
   ]
 
   return (
-    <section id="services" className="py-20 bg-gradient-to-r from-slate-50 via-white to-blue-50">
+    <section id="services" className="py-24 bg-gradient-to-r from-slate-50 via-white to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
-          <p className="text-xl text-gray-600">Comprehensive SAP & AI solutions for modern businesses</p>
+        <div className="text-center mb-20">
+          <h2 className="text-4xl lg:text-6xl font-black text-gray-900 mb-6 tracking-tight">Our Services</h2>
+          <p className="text-xl lg:text-2xl text-gray-600 font-light max-w-3xl mx-auto leading-relaxed">Comprehensive SAP & AI solutions for modern businesses</p>
         </div>
         
         {services.map((service, index) => (
           <ServiceCard key={index} {...service} />
         ))}
 
-        <div className="text-center mt-16">
+        <div className="text-center mt-20">
           <button
             onClick={onViewAllServices}
-            className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+            className="inline-flex items-center px-10 py-5 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold text-lg rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-blue-500/30 ring-2 ring-blue-200/50 tracking-wide"
           >
             View All Services
             <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
