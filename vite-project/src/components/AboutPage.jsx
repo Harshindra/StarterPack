@@ -46,7 +46,7 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
         </section>
 
         {/* Section 2: Our Mission */}
-        <section className="py-20 bg-gradient-to-r from-orange-50 via-white to-blue-50">
+        <section className="py-24 bg-gradient-to-r from-orange-50 via-white to-blue-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
@@ -68,7 +68,7 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
                 </div>
               </div>
               <div>
-                <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Our Mission</h2>
+                <h2 className="text-5xl lg:text-7xl font-black text-gray-900 mb-8 tracking-tight leading-tight">Our Mission</h2>
                 <p className="text-lg text-gray-600 leading-relaxed">
                   We are committed to providing our clients with top-tier, forward-thinking, and sustainable solutions. We envision ourselves as enablers, assisting clients in smoothly integrating state-of-the-art technology across various functions while ensuring cost-effectiveness and efficient implementation. Our solutions are designed to furnish clients with the most pertinent, up-to-date, and cost-efficient technology. At AI4S, we believe that our quest for excellence permeates from our work environment into the lives of our team members, and ultimately, benefits society as a whole.
                 </p>
@@ -78,11 +78,11 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
         </section>
 
         {/* Section 3: Our Vision */}
-        <section className="py-20 bg-gradient-to-r from-white via-orange-50 to-blue-50">
+        <section className="py-24 bg-gradient-to-r from-white via-orange-50 to-blue-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
-                <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Our Vision</h2>
+                <h2 className="text-5xl lg:text-7xl font-black text-gray-900 mb-8 tracking-tight leading-tight">Our Vision</h2>
                 <p className="text-lg text-gray-600 leading-relaxed">
                   We aspire to propel your business to unprecedented heights by integrating advanced technology and fostering innovation in your operations. Our expertise equips us to collaborate with you in surmounting technological hurdles, allowing you to focus on your core competencies. AI4S draws its inspiration from its workforce. Our foundation is built on a wealth of experience, an enthusiasm for technology, a commitment to innovation, ethical practices, and exceeding client expectations. We specialize in delivering tailor-made solutions that enable your business to thrive. Our goal is to evolve alongside you.
                 </p>
@@ -110,13 +110,13 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
         </section>
 
         {/* Call to Action Section */}
-        <section className="py-16 bg-gradient-to-r from-blue-50 via-white to-orange-50">
+        <section className="py-20 bg-gradient-to-r from-blue-50 via-white to-orange-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Ready to Transform Your Business?</h2>
+            <h2 className="text-4xl lg:text-6xl font-black text-gray-900 mb-8 tracking-tight">Ready to Transform Your Business?</h2>
             <p className="text-xl text-gray-600 mb-8">
               Let's work together to achieve your goals through innovative technology solutions.
             </p>
-            <button className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+            <button className="inline-flex items-center px-10 py-5 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold text-lg rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-blue-500/30 ring-2 ring-blue-200/50 tracking-wide">
               Get Started Today
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
