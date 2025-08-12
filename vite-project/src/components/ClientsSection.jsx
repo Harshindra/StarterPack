@@ -15,20 +15,20 @@ export default function ClientsSection() {
   ]
 
   return (
-    <section id="clients" className="py-20 bg-gradient-to-r from-gray-800 via-black to-gray-800">
+    <section id="clients" className="py-20 bg-gradient-to-r from-blue-50 via-white to-orange-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">Our Clients</h2>
-          <p className="text-xl text-gray-300">Powering AI success for companies worldwide</p>
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Our Clients</h2>
+          <p className="text-xl text-gray-600">Powering SAP & AI success for companies worldwide</p>
         </div>
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
           {clients.map((client, index) => (
             <div 
               key={index}
-              className={`bg-gray-900 border border-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg ${client.hoverBorderColor} transition-all duration-300 flex items-center justify-center transform hover:scale-105`}
+              className="bg-white border border-gray-200 rounded-lg p-6 shadow-md hover:shadow-lg hover:border-blue-500 transition-all duration-300 flex items-center justify-center transform hover:scale-105"
             >
-              <span className="text-white font-bold text-sm">{client.name}</span>
+              <span className="text-gray-800 font-bold text-sm">{client.name}</span>
             </div>
           ))}
         </div>
