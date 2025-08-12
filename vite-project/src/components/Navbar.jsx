@@ -6,12 +6,12 @@ export default function Navbar({ onNavigateToServices, onNavigateToHome, onNavig
           {/* Company Logo - Interactive */}
           <div className="flex-shrink-0">
             <div className="flex items-center">
-              <div
+              <img
                 onClick={onNavigateToHome}
-                className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl flex items-center justify-center transform transition-all duration-500 hover:scale-110 hover:rotate-3 hover:shadow-2xl hover:shadow-blue-500/30 cursor-pointer group ring-2 ring-white/20"
-              >
-                <span className="text-white font-bold text-xl tracking-tight group-hover:animate-pulse">AI4S</span>
-              </div>
+                src="https://cdn.builder.io/api/v1/image/assets%2Fffe704f5409f4984866d8f787feaf679%2Fcc82fb24863a4b328c93e2088148343d?format=webp&width=800"
+                alt="AI4S Logo"
+                className="h-12 w-auto cursor-pointer transform transition-all duration-500 hover:scale-110 hover:drop-shadow-2xl"
+              />
             </div>
           </div>
           
