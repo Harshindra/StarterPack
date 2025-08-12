@@ -13,18 +13,18 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
       
       <div className="pt-20">
         {/* Section 1: About AI4S */}
-        <section className="py-20 bg-gradient-to-r from-white via-blue-50 to-orange-50">
+        <section className="py-24 bg-gradient-to-r from-white via-blue-50 to-orange-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
-                <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">About AI4S</h1>
-                <p className="text-lg text-gray-600 leading-relaxed">
+                <h1 className="text-5xl lg:text-7xl font-black text-gray-900 mb-8 tracking-tight leading-tight">About AI4S</h1>
+                <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed font-light">
                   At AI4S, we specialize in delivering tailored SAP solutions and advanced AI services designed to meet the unique needs of businesses across industries. Our mission is to empower organizations to achieve their goals through innovative technology, expert consulting, and comprehensive SAP education. With a focus on scalability, customization, and cutting-edge practices, we ensure our clients stay ahead in a dynamic digital world.
                 </p>
               </div>
               <div className="order-1 lg:order-2">
                 <div className="relative">
-                  <div className="w-full h-96 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl shadow-2xl overflow-hidden">
+                  <div className="w-full h-96 bg-gradient-to-br from-blue-600 to-purple-600 rounded-3xl shadow-2xl overflow-hidden ring-2 ring-blue-200/30">
                     <div className="absolute inset-0 bg-black bg-opacity-20"></div>
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="text-center">
