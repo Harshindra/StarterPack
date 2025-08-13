@@ -17,7 +17,7 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center text-center space-y-12">
               {/* Image First */}
-              <div className="w-full max-w-lg">
+              <div className="w-full max-w-3xl">
                 <div className="relative">
                   <div className="w-full h-80 bg-gradient-to-br from-blue-600 to-purple-600 rounded-3xl shadow-2xl overflow-hidden ring-2 ring-blue-200/30">
                     <div className="absolute inset-0 bg-black bg-opacity-20"></div>
