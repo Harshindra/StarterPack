@@ -13,7 +13,7 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
       
       <div className="pt-20">
         {/* Section 1: About AI4S - Column layout: Image, then heading, then content */}
-        <section className="py-24 bg-gradient-to-r from-white via-blue-50 to-orange-50">
+        <section className="py-24 bg-gradient-to-r from-white via-blue-50 to-orange-50 animate-fade-in-up">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col items-center text-center space-y-12">
               {/* Image First */}
@@ -38,7 +38,7 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
               </div>
 
               {/* Heading Second */}
-              <h1 className="text-5xl lg:text-7xl font-black text-gray-900 tracking-tight leading-tight">About AI4S</h1>
+              <h1 className="text-5xl lg:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 tracking-tight leading-tight animate-pulse">About AI4S</h1>
 
               {/* Content Third */}
               <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed font-light max-w-4xl">
@@ -49,10 +49,10 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
         </section>
 
         {/* Section 2: Our Mission - Content only */}
-        <section className="py-24 bg-gradient-to-r from-orange-50 via-white to-blue-50">
+        <section className="py-24 bg-gradient-to-r from-orange-50 via-white to-blue-50 animate-slide-in-left">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-5xl lg:text-7xl font-black text-gray-900 mb-8 tracking-tight leading-tight">Our Mission</h2>
+              <h2 className="text-5xl lg:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-8 tracking-tight leading-tight animate-bounce">Our Mission</h2>
               <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed font-light">
                 We are committed to providing our clients with top-tier, forward-thinking, and sustainable solutions. We envision ourselves as enablers, assisting clients in smoothly integrating state-of-the-art technology across various functions while ensuring cost-effectiveness and efficient implementation. Our solutions are designed to furnish clients with the most pertinent, up-to-date, and cost-efficient technology. At AI4S, we believe that our quest for excellence permeates from our work environment into the lives of our team members, and ultimately, benefits society as a whole.
               </p>
@@ -61,10 +61,10 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
         </section>
 
         {/* Section 3: Our Vision - Content only */}
-        <section className="py-24 bg-gradient-to-r from-white via-orange-50 to-blue-50">
+        <section className="py-24 bg-gradient-to-r from-white via-orange-50 to-blue-50 animate-slide-in-right">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-5xl lg:text-7xl font-black text-gray-900 mb-8 tracking-tight leading-tight">Our Vision</h2>
+              <h2 className="text-5xl lg:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-8 tracking-tight leading-tight animate-pulse">Our Vision</h2>
               <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed font-light">
                 We aspire to propel your business to unprecedented heights by integrating advanced technology and fostering innovation in your operations. Our expertise equips us to collaborate with you in surmounting technological hurdles, allowing you to focus on your core competencies. AI4S draws its inspiration from its workforce. Our foundation is built on a wealth of experience, an enthusiasm for technology, a commitment to innovation, ethical practices, and exceeding client expectations. We specialize in delivering tailor-made solutions that enable your business to thrive. Our goal is to evolve alongside you.
               </p>
@@ -73,9 +73,9 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
         </section>
 
         {/* Call to Action Section */}
-        <section className="py-20 bg-gradient-to-r from-blue-50 via-white to-orange-50">
+        <section className="py-20 bg-gradient-to-r from-blue-50 via-white to-orange-50 animate-fade-in">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-4xl lg:text-6xl font-black text-gray-900 mb-8 tracking-tight">Ready to Transform Your Business?</h2>
+            <h2 className="text-4xl lg:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-8 tracking-tight animate-bounce">Ready to Transform Your Business?</h2>
             <p className="text-xl lg:text-2xl text-gray-600 mb-10 font-light max-w-3xl mx-auto leading-relaxed">
               Let's work together to achieve your goals through innovative technology solutions.
             </p>
