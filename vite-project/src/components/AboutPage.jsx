@@ -12,35 +12,38 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
       />
       
       <div className="pt-20">
-        {/* Section 1: About AI4S - Image first, then content */}
+        {/* Section 1: About AI4S - Column layout: Image, then heading, then content */}
         <section className="py-24 bg-gradient-to-r from-white via-blue-50 to-orange-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-              <div>
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-col items-center text-center space-y-12">
+              {/* Image First */}
+              <div className="w-full max-w-lg">
                 <div className="relative">
-                  <div className="w-full h-96 bg-gradient-to-br from-blue-600 to-purple-600 rounded-3xl shadow-2xl overflow-hidden ring-2 ring-blue-200/30">
+                  <div className="w-full h-80 bg-gradient-to-br from-blue-600 to-purple-600 rounded-3xl shadow-2xl overflow-hidden ring-2 ring-blue-200/30">
                     <div className="absolute inset-0 bg-black bg-opacity-20"></div>
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="text-center">
-                        <div className="w-28 h-28 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-6 ring-4 ring-white/30">
+                        <div className="w-24 h-24 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4 ring-4 ring-white/30">
                           <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clipRule="evenodd" />
                             <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
                           </svg>
                         </div>
-                        <h3 className="text-3xl font-black text-white mb-3 tracking-tight">Innovation & Excellence</h3>
-                        <p className="text-purple-200 text-lg font-medium">Transforming businesses through technology</p>
+                        <h3 className="text-2xl font-black text-white mb-2 tracking-tight">Innovation & Excellence</h3>
+                        <p className="text-purple-200 font-medium">Transforming businesses through technology</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div>
-                <h1 className="text-5xl lg:text-7xl font-black text-gray-900 mb-8 tracking-tight leading-tight">About AI4S</h1>
-                <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed font-light">
-                  At AI4S, we specialize in delivering tailored SAP solutions and advanced AI services designed to meet the unique needs of businesses across industries. Our mission is to empower organizations to achieve their goals through innovative technology, expert consulting, and comprehensive SAP education. With a focus on scalability, customization, and cutting-edge practices, we ensure our clients stay ahead in a dynamic digital world.
-                </p>
-              </div>
+
+              {/* Heading Second */}
+              <h1 className="text-5xl lg:text-7xl font-black text-gray-900 tracking-tight leading-tight">About AI4S</h1>
+
+              {/* Content Third */}
+              <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed font-light max-w-4xl">
+                At AI4S, we specialize in delivering tailored SAP solutions and advanced AI services designed to meet the unique needs of businesses across industries. Our mission is to empower organizations to achieve their goals through innovative technology, expert consulting, and comprehensive SAP education. With a focus on scalability, customization, and cutting-edge practices, we ensure our clients stay ahead in a dynamic digital world.
+              </p>
             </div>
           </div>
         </section>
