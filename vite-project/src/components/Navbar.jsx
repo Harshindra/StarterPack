@@ -1,4 +1,4 @@
-export default function Navbar({ onNavigateToServices, onNavigateToHome, onNavigateToAbout, currentPage }) {
+export default function Navbar({ onNavigateToServices, onNavigateToHome, onNavigateToAbout, onNavigateToSAPTraining, currentPage }) {
   return (
     <nav className="bg-white/95 backdrop-blur-lg shadow-2xl fixed top-0 w-full z-50 border-b border-blue-200/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -30,9 +30,12 @@ export default function Navbar({ onNavigateToServices, onNavigateToHome, onNavig
               >
                 Services
               </button>
-              <a href="#sap-training" className="text-gray-700 hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 px-4 py-2.5 rounded-lg text-sm font-semibold tracking-wide transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+              <button
+                onClick={onNavigateToSAPTraining}
+                className={`${currentPage === 'sap-training' ? 'text-white bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg' : 'text-gray-700'} hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 px-4 py-2.5 rounded-lg text-sm font-semibold tracking-wide transition-all duration-300 transform hover:scale-105 hover:shadow-lg`}
+              >
                 SAP Training
-              </a>
+              </button>
               <button
                 onClick={onNavigateToAbout}
                 className={`${currentPage === 'about' ? 'text-white bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg' : 'text-gray-700'} hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 px-4 py-2.5 rounded-lg text-sm font-semibold tracking-wide transition-all duration-300 transform hover:scale-105 hover:shadow-lg`}
