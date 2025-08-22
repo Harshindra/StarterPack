@@ -2,7 +2,7 @@ import ServiceCard from './ServiceCard'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-export default function ServicesPage({ onBackToHome, onNavigateToServices, onNavigateToHome, onNavigateToAbout }) {
+export default function ServicesPage({ onBackToHome, onNavigateToServices, onNavigateToHome, onNavigateToAbout, onNavigateToSAPTraining }) {
   const allServices = [
     {
       title: "Custom Web Development",
@@ -122,11 +122,12 @@ export default function ServicesPage({ onBackToHome, onNavigateToServices, onNav
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-orange-50">
-      <Navbar 
-        onNavigateToServices={onNavigateToServices} 
-        onNavigateToHome={onNavigateToHome} 
+      <Navbar
+        onNavigateToServices={onNavigateToServices}
+        onNavigateToHome={onNavigateToHome}
         onNavigateToAbout={onNavigateToAbout}
-        currentPage="services" 
+        onNavigateToSAPTraining={onNavigateToSAPTraining}
+        currentPage="services"
       />
       <div className="py-24 pt-36">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
