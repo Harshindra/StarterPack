@@ -64,6 +64,19 @@ export default function App() {
         onNavigateToHome={handleBackToHome}
         onNavigateToAbout={handleNavigateToAbout}
         onNavigateToSAPTraining={handleNavigateToSAPTraining}
+        onNavigateToFAQ={handleNavigateToFAQ}
+      />
+    )
+  }
+
+  if (currentPage === 'faq') {
+    return (
+      <FAQPage
+        onNavigateToServices={handleViewAllServices}
+        onNavigateToHome={handleBackToHome}
+        onNavigateToAbout={handleNavigateToAbout}
+        onNavigateToSAPTraining={handleNavigateToSAPTraining}
+        onNavigateToFAQ={handleNavigateToFAQ}
       />
     )
   }
