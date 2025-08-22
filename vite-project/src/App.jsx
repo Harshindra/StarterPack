@@ -90,6 +90,7 @@ export default function App() {
         onNavigateToHome={handleBackToHome}
         onNavigateToAbout={handleNavigateToAbout}
         onNavigateToSAPTraining={handleNavigateToSAPTraining}
+        onNavigateToFAQ={handleNavigateToFAQ}
         currentPage="home"
       />
       <HeroSection />
