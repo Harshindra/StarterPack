@@ -36,6 +36,7 @@ export default function App() {
         onNavigateToServices={handleViewAllServices}
         onNavigateToHome={handleBackToHome}
         onNavigateToAbout={handleNavigateToAbout}
+        onNavigateToSAPTraining={handleNavigateToSAPTraining}
       />
     )
   }
@@ -46,6 +47,18 @@ export default function App() {
         onNavigateToServices={handleViewAllServices}
         onNavigateToHome={handleBackToHome}
         onNavigateToAbout={handleNavigateToAbout}
+        onNavigateToSAPTraining={handleNavigateToSAPTraining}
+      />
+    )
+  }
+
+  if (currentPage === 'sap-training') {
+    return (
+      <SAPTrainingPage
+        onNavigateToServices={handleViewAllServices}
+        onNavigateToHome={handleBackToHome}
+        onNavigateToAbout={handleNavigateToAbout}
+        onNavigateToSAPTraining={handleNavigateToSAPTraining}
       />
     )
   }
@@ -56,6 +69,7 @@ export default function App() {
         onNavigateToServices={handleViewAllServices}
         onNavigateToHome={handleBackToHome}
         onNavigateToAbout={handleNavigateToAbout}
+        onNavigateToSAPTraining={handleNavigateToSAPTraining}
         currentPage="home"
       />
       <HeroSection />
