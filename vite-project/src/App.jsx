@@ -8,6 +8,7 @@ import ClientsSection from './components/ClientsSection'
 import Footer from './components/Footer'
 import ServicesPage from './components/ServicesPage'
 import AboutPage from './components/AboutPage'
+import SAPTrainingPage from './components/SAPTrainingPage'
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home')
@@ -22,6 +23,10 @@ export default function App() {
 
   const handleNavigateToAbout = () => {
     setCurrentPage('about')
+  }
+
+  const handleNavigateToSAPTraining = () => {
+    setCurrentPage('sap-training')
   }
 
   if (currentPage === 'services') {
