@@ -1,7 +1,7 @@
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNavigateToAbout, onNavigateToSAPTraining }) {
+export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNavigateToAbout, onNavigateToSAPTraining, onNavigateToFAQ }) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-orange-50">
       <Navbar
@@ -9,6 +9,7 @@ export default function AboutPage({ onNavigateToServices, onNavigateToHome, onNa
         onNavigateToHome={onNavigateToHome}
         onNavigateToAbout={onNavigateToAbout}
         onNavigateToSAPTraining={onNavigateToSAPTraining}
+        onNavigateToFAQ={onNavigateToFAQ}
         currentPage="about"
       />
       
