@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 import ServicesPage from './components/ServicesPage'
 import AboutPage from './components/AboutPage'
 import SAPTrainingPage from './components/SAPTrainingPage'
+import FAQPage from './components/FAQPage'
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home')
@@ -27,6 +28,10 @@ export default function App() {
 
   const handleNavigateToSAPTraining = () => {
     setCurrentPage('sap-training')
+  }
+
+  const handleNavigateToFAQ = () => {
+    setCurrentPage('faq')
   }
 
   if (currentPage === 'services') {
