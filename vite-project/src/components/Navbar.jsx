@@ -1,4 +1,4 @@
-export default function Navbar({ onNavigateToServices, onNavigateToHome, onNavigateToAbout, onNavigateToSAPTraining, onNavigateToFAQ, currentPage }) {
+export default function Navbar({ onNavigateToServices, onNavigateToHome, onNavigateToAbout, onNavigateToSAPTraining, onNavigateToFAQ, onNavigateToExperts, currentPage }) {
   return (
     <nav className="bg-white/95 backdrop-blur-lg shadow-2xl fixed top-0 w-full z-50 border-b border-blue-200/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -41,6 +41,12 @@ export default function Navbar({ onNavigateToServices, onNavigateToHome, onNavig
                 className={`${currentPage === 'about' ? 'text-white bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg' : 'text-gray-700'} hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 px-4 py-2.5 rounded-lg text-sm font-semibold tracking-wide transition-all duration-300 transform hover:scale-105 hover:shadow-lg`}
               >
                 About
+              </button>
+              <button
+                onClick={onNavigateToExperts}
+                className={`${currentPage === 'experts' ? 'text-white bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg' : 'text-gray-700'} hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 px-4 py-2.5 rounded-lg text-sm font-semibold tracking-wide transition-all duration-300 transform hover:scale-105 hover:shadow-lg`}
+              >
+                Experts
               </button>
               <button
                 onClick={onNavigateToFAQ}
