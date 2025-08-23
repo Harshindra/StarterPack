@@ -2,7 +2,7 @@ import ServiceCard from './ServiceCard'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-export default function ServicesPage({ onBackToHome, onNavigateToServices, onNavigateToHome, onNavigateToAbout, onNavigateToSAPTraining, onNavigateToFAQ }) {
+export default function ServicesPage({ onBackToHome, onNavigateToServices, onNavigateToHome, onNavigateToAbout, onNavigateToSAPTraining, onNavigateToFAQ, onNavigateToExperts }) {
   const allServices = [
     {
       title: "Custom Web Development",
@@ -128,6 +128,7 @@ export default function ServicesPage({ onBackToHome, onNavigateToServices, onNav
         onNavigateToAbout={onNavigateToAbout}
         onNavigateToSAPTraining={onNavigateToSAPTraining}
         onNavigateToFAQ={onNavigateToFAQ}
+        onNavigateToExperts={onNavigateToExperts}
         currentPage="services"
       />
       <div className="py-24 pt-36">
