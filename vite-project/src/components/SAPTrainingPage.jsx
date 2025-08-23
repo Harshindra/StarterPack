@@ -1,7 +1,7 @@
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-export default function SAPTrainingPage({ onNavigateToServices, onNavigateToHome, onNavigateToAbout, onNavigateToSAPTraining, onNavigateToFAQ }) {
+export default function SAPTrainingPage({ onNavigateToServices, onNavigateToHome, onNavigateToAbout, onNavigateToSAPTraining, onNavigateToFAQ, onNavigateToExperts }) {
   const trainingPrograms = [
     {
       title: "SAP S/4HANA Fundamentals",
@@ -153,6 +153,7 @@ export default function SAPTrainingPage({ onNavigateToServices, onNavigateToHome
         onNavigateToAbout={onNavigateToAbout}
         onNavigateToSAPTraining={onNavigateToSAPTraining}
         onNavigateToFAQ={onNavigateToFAQ}
+        onNavigateToExperts={onNavigateToExperts}
         currentPage="sap-training"
       />
       
