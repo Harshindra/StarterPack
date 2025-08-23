@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import ServicesSection from './components/ServicesSection'
 import AboutSection from './components/AboutSection'
+import ExpertTeam from './components/ExpertTeam'
 import PartnersSection from './components/PartnersSection'
 import ClientsSection from './components/ClientsSection'
 import Footer from './components/Footer'
@@ -96,6 +97,7 @@ export default function App() {
       <HeroSection />
       <ServicesSection onViewAllServices={handleViewAllServices} />
       <AboutSection />
+      <ExpertTeam />
       <PartnersSection />
       <ClientsSection />
       <Footer />
