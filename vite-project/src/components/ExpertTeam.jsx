@@ -100,26 +100,6 @@ export default function ExpertTeam() {
                 <p className="text-gray-600 leading-relaxed font-light mb-6">
                   {member.description}
                 </p>
-                
-                {/* Certifications */}
-                <div className="mb-6">
-                  <h4 className="text-sm font-bold text-gray-900 mb-3">Key Certifications:</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {member.certifications.map((cert, idx) => (
-                      <span 
-                        key={idx} 
-                        className="px-3 py-1 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800 text-xs font-semibold rounded-full border border-blue-200"
-                      >
-                        {cert}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                
-                {/* Contact Button */}
-                <button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 font-semibold transform hover:scale-105 shadow-lg hover:shadow-xl group-hover:shadow-blue-500/30">
-                  Connect with {member.name.split(' ')[0]}
-                </button>
               </div>
             </div>
           ))}
