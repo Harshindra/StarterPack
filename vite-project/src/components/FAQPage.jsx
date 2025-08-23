@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-export default function FAQPage({ onNavigateToServices, onNavigateToHome, onNavigateToAbout, onNavigateToSAPTraining, onNavigateToFAQ }) {
+export default function FAQPage({ onNavigateToServices, onNavigateToHome, onNavigateToAbout, onNavigateToSAPTraining, onNavigateToFAQ, onNavigateToExperts }) {
   const [openQuestion, setOpenQuestion] = useState(null)
 
   const faqs = [
@@ -46,13 +46,14 @@ export default function FAQPage({ onNavigateToServices, onNavigateToHome, onNavi
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-orange-50">
-      <Navbar 
-        onNavigateToServices={onNavigateToServices} 
-        onNavigateToHome={onNavigateToHome} 
+      <Navbar
+        onNavigateToServices={onNavigateToServices}
+        onNavigateToHome={onNavigateToHome}
         onNavigateToAbout={onNavigateToAbout}
         onNavigateToSAPTraining={onNavigateToSAPTraining}
         onNavigateToFAQ={onNavigateToFAQ}
-        currentPage="faq" 
+        onNavigateToExperts={onNavigateToExperts}
+        currentPage="faq"
       />
       
       <div className="pt-20">
