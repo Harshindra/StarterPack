@@ -1,4 +1,4 @@
-export default function ExpertTeam() {
+export default function ExpertTeam({ onNavigateToExperts }) {
   const teamMembers = [
     {
       name: "Dr. Sarah Johnson",
@@ -146,7 +146,10 @@ export default function ExpertTeam() {
             <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-10 py-4 rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 font-semibold text-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/30 ring-2 ring-blue-200/50">
               Schedule Consultation
             </button>
-            <button className="border-2 border-orange-500 text-orange-600 px-10 py-4 rounded-xl hover:bg-gradient-to-r hover:from-orange-500 hover:to-orange-600 hover:text-white hover:border-transparent transition-all duration-300 font-semibold text-lg transform hover:scale-105 hover:shadow-xl backdrop-blur-sm">
+            <button
+              onClick={onNavigateToExperts}
+              className="border-2 border-orange-500 text-orange-600 px-10 py-4 rounded-xl hover:bg-gradient-to-r hover:from-orange-500 hover:to-orange-600 hover:text-white hover:border-transparent transition-all duration-300 font-semibold text-lg transform hover:scale-105 hover:shadow-xl backdrop-blur-sm"
+            >
               View All Experts
             </button>
           </div>
