@@ -11,6 +11,7 @@ import ServicesPage from './components/ServicesPage'
 import AboutPage from './components/AboutPage'
 import SAPTrainingPage from './components/SAPTrainingPage'
 import FAQPage from './components/FAQPage'
+import ExpertsPage from './components/ExpertsPage'
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home')
@@ -33,6 +34,10 @@ export default function App() {
 
   const handleNavigateToFAQ = () => {
     setCurrentPage('faq')
+  }
+
+  const handleNavigateToExperts = () => {
+    setCurrentPage('experts')
   }
 
   if (currentPage === 'services') {
