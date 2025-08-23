@@ -85,6 +85,20 @@ export default function App() {
         onNavigateToAbout={handleNavigateToAbout}
         onNavigateToSAPTraining={handleNavigateToSAPTraining}
         onNavigateToFAQ={handleNavigateToFAQ}
+        onNavigateToExperts={handleNavigateToExperts}
+      />
+    )
+  }
+
+  if (currentPage === 'experts') {
+    return (
+      <ExpertsPage
+        onNavigateToServices={handleViewAllServices}
+        onNavigateToHome={handleBackToHome}
+        onNavigateToAbout={handleNavigateToAbout}
+        onNavigateToSAPTraining={handleNavigateToSAPTraining}
+        onNavigateToFAQ={handleNavigateToFAQ}
+        onNavigateToExperts={handleNavigateToExperts}
       />
     )
   }
