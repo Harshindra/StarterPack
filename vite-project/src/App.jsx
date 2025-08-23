@@ -120,7 +120,7 @@ export default function App() {
       <HeroSection />
       <ServicesSection onViewAllServices={handleViewAllServices} />
       <AboutSection />
-      <ExpertTeam />
+      <ExpertTeam onNavigateToExperts={handleNavigateToExperts} />
       <PartnersSection />
       <ClientsSection />
       <Footer />
