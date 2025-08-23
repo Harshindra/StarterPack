@@ -49,6 +49,7 @@ export default function App() {
         onNavigateToAbout={handleNavigateToAbout}
         onNavigateToSAPTraining={handleNavigateToSAPTraining}
         onNavigateToFAQ={handleNavigateToFAQ}
+        onNavigateToExperts={handleNavigateToExperts}
       />
     )
   }
@@ -61,6 +62,7 @@ export default function App() {
         onNavigateToAbout={handleNavigateToAbout}
         onNavigateToSAPTraining={handleNavigateToSAPTraining}
         onNavigateToFAQ={handleNavigateToFAQ}
+        onNavigateToExperts={handleNavigateToExperts}
       />
     )
   }
@@ -73,6 +75,7 @@ export default function App() {
         onNavigateToAbout={handleNavigateToAbout}
         onNavigateToSAPTraining={handleNavigateToSAPTraining}
         onNavigateToFAQ={handleNavigateToFAQ}
+        onNavigateToExperts={handleNavigateToExperts}
       />
     )
   }
@@ -111,6 +114,7 @@ export default function App() {
         onNavigateToAbout={handleNavigateToAbout}
         onNavigateToSAPTraining={handleNavigateToSAPTraining}
         onNavigateToFAQ={handleNavigateToFAQ}
+        onNavigateToExperts={handleNavigateToExperts}
         currentPage="home"
       />
       <HeroSection />
